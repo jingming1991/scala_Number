@@ -8,7 +8,7 @@ class FloatCompare extends FunSuite {
     * - define an implicit conversion
     * - create a utilities Object
     */
-  test("") {
+  test("Float Compare") {
 
     def ~=(x: Double, y: Double, precision: Double): Boolean = {
       if ((x - y).abs < precision) true else false
